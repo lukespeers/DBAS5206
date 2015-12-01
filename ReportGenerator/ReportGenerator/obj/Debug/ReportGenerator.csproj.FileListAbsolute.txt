@@ -1,0 +1,14 @@
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.exe.config
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\bin\Debug\DBAS.mdf
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\bin\Debug\DBAS_log.ldf
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.exe
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\bin\Debug\ReportGenerator.pdb
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.frmCustomReports.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.MainMenu.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.frmPrebuiltReports.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.Properties.Resources.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.csproj.GenerateResource.Cache
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.exe
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.pdb
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.frmPatientPhysicians.resources
