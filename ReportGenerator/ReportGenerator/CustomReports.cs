@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MVCH
+namespace ReportGenerator
 {
-    public partial class Form1 : Form
+    public partial class frmCustomReports : Form
     {
-        public Form1()
+        public frmCustomReports()
         {
             InitializeComponent();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

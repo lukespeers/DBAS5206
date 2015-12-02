@@ -1,1 +1,12 @@
 C:\Users\Luke\Desktop\FALL 2015\DATABASE DEVELOPMENT\Final Group Project\DBAS5206\MVCH\MVCH\bin\Debug\MVCH.exe.config
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\bin\Debug\MVCH.exe.config
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\bin\Debug\DBAS.mdf
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\bin\Debug\DBAS_log.ldf
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\bin\Debug\MVCH.exe
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\bin\Debug\MVCH.pdb
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\obj\Debug\MVCH.csprojResolveAssemblyReference.cache
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\obj\Debug\MVCH.Properties.Resources.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\obj\Debug\MVCH.csproj.GenerateResource.Cache
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\obj\Debug\MVCH.exe
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\obj\Debug\MVCH.pdb
+C:\Users\Dan\Documents\GitHub\DBAS5206\MVCH\MVCH\obj\Debug\MVCH.frmReportDisplay.resources
