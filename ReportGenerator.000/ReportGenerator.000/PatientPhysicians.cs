@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ReportGenerator
+namespace ReportGenerator._000
 {
     public partial class frmPatientPhysicians : Form
     {
@@ -15,7 +15,7 @@ namespace ReportGenerator
         {
             InitializeComponent();
         }
-             // Data Set object
+        // Data Set object
         //private DBASDataSet hospitalInfoDataSet;
         // Table Adapter Objects
         //private DBASDataSetTableAdapters.invoicesTableAdapter invoiceTableAdapter;
@@ -33,27 +33,26 @@ namespace ReportGenerator
             //try
             //{
 
-                aDataSet = new MVCHDataSet();                
-                aPhysiciansTableAdapter = new MVCHDataSetTableAdapters.physiciansTableAdapter();
-                anAdmissionsTableAdapter = new MVCHDataSetTableAdapters.patient_admissionsTableAdapter();
-                aPatientTableAdapter = new MVCHDataSetTableAdapters.patientsTableAdapter();
+            aDataSet = new MVCHDataSet();
+            aPhysiciansTableAdapter = new MVCHDataSetTableAdapters.physiciansTableAdapter();
+            anAdmissionsTableAdapter = new MVCHDataSetTableAdapters.patient_admissionsTableAdapter();
+            aPatientTableAdapter = new MVCHDataSetTableAdapters.patientsTableAdapter();
 
-                aPatientTableAdapter.Fill(aDataSet.patients);
-                aPhysiciansTableAdapter.Fill(aDataSet.physicians);
-                anAdmissionsTableAdapter.Fill(aDataSet.patient_admissions);
+            aPatientTableAdapter.Fill(aDataSet.patients);
+            aPhysiciansTableAdapter.Fill(aDataSet.physicians);
+            anAdmissionsTableAdapter.Fill(aDataSet.patient_admissions);
 
-                // Set up viewer to show report object
-                aPatientPhysicianReport.SetDataSource(aDataSet);
+            // Set up viewer to show report object
+            aPatientPhysicianReport.SetDataSource(aDataSet);
 
-                rptPatientPhysicianViewer.ReportSource = aPatientPhysicianReport;
-                rptPatientPhysicianViewer.Refresh();
+            rptPatientPhysicianViewer.ReportSource = aPatientPhysicianReport;
+            rptPatientPhysicianViewer.Refresh();
 
-           // }
-           // catch (Exception dataException)
-           // {
-             //   MessageBox.Show(dataException.Message);
-           // }
-            
+            // }
+            // catch (Exception dataException)
+            // {
+            //   MessageBox.Show(dataException.Message);
+            // }
         }
     }
 }

@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace ReportGenerator {
+namespace ReportGenerator._000 {
     
     
     /// <summary>
@@ -20,9 +20,9 @@ namespace ReportGenerator {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("DBASDataSet")]
+    [global::System.Xml.Serialization.XmlRootAttribute("MVCHDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class DBASDataSet : global::System.Data.DataSet {
+    public partial class MVCHDataSet : global::System.Data.DataSet {
         
         private cost_centresDataTable tablecost_centres;
         
@@ -80,7 +80,7 @@ namespace ReportGenerator {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public DBASDataSet() {
+        public MVCHDataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -91,7 +91,7 @@ namespace ReportGenerator {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        protected DBASDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected MVCHDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -333,7 +333,7 @@ namespace ReportGenerator {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            DBASDataSet cln = ((DBASDataSet)(base.Clone()));
+            MVCHDataSet cln = ((MVCHDataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -526,9 +526,9 @@ namespace ReportGenerator {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "DBASDataSet";
+            this.DataSetName = "MVCHDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/DBASDataSet.xsd";
+            this.Namespace = "http://tempuri.org/MVCHDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tablecost_centres = new cost_centresDataTable();
@@ -700,7 +700,7 @@ namespace ReportGenerator {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            DBASDataSet ds = new DBASDataSet();
+            MVCHDataSet ds = new MVCHDataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -999,7 +999,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1274,7 +1274,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1584,7 +1584,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1891,7 +1891,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2166,7 +2166,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2457,7 +2457,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2799,7 +2799,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3218,7 +3218,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3487,7 +3487,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3793,7 +3793,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4067,7 +4067,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4342,7 +4342,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4666,7 +4666,7 @@ namespace ReportGenerator {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DBASDataSet ds = new DBASDataSet();
+                MVCHDataSet ds = new MVCHDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -6597,7 +6597,7 @@ namespace ReportGenerator {
         }
     }
 }
-namespace ReportGenerator.DBASDataSetTableAdapters {
+namespace ReportGenerator._000.MVCHDataSetTableAdapters {
     
     
     /// <summary>
@@ -6754,7 +6754,7 @@ SELECT cost_centre_id, cost_centre_name FROM cost_centres WHERE (cost_centre_id 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -6771,7 +6771,7 @@ SELECT cost_centre_id, cost_centre_name FROM cost_centres WHERE (cost_centre_id 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.cost_centresDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.cost_centresDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -6784,9 +6784,9 @@ SELECT cost_centre_id, cost_centre_name FROM cost_centres WHERE (cost_centre_id 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.cost_centresDataTable GetData() {
+        public virtual MVCHDataSet.cost_centresDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.cost_centresDataTable dataTable = new DBASDataSet.cost_centresDataTable();
+            MVCHDataSet.cost_centresDataTable dataTable = new MVCHDataSet.cost_centresDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -6794,14 +6794,14 @@ SELECT cost_centre_id, cost_centre_name FROM cost_centres WHERE (cost_centre_id 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.cost_centresDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.cost_centresDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "cost_centres");
         }
         
@@ -7095,7 +7095,7 @@ SELECT financial_source_id, financial_source FROM financial_sources WHERE (finan
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7112,7 +7112,7 @@ SELECT financial_source_id, financial_source FROM financial_sources WHERE (finan
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.financial_sourcesDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.financial_sourcesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7125,9 +7125,9 @@ SELECT financial_source_id, financial_source FROM financial_sources WHERE (finan
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.financial_sourcesDataTable GetData() {
+        public virtual MVCHDataSet.financial_sourcesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.financial_sourcesDataTable dataTable = new DBASDataSet.financial_sourcesDataTable();
+            MVCHDataSet.financial_sourcesDataTable dataTable = new MVCHDataSet.financial_sourcesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7135,14 +7135,14 @@ SELECT financial_source_id, financial_source FROM financial_sources WHERE (finan
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.financial_sourcesDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.financial_sourcesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "financial_sources");
         }
         
@@ -7447,7 +7447,7 @@ SELECT invoice_id, admission_id, transaction_id, invoice_date FROM invoices WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7464,7 +7464,7 @@ SELECT invoice_id, admission_id, transaction_id, invoice_date FROM invoices WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.invoicesDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.invoicesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7477,9 +7477,9 @@ SELECT invoice_id, admission_id, transaction_id, invoice_date FROM invoices WHER
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.invoicesDataTable GetData() {
+        public virtual MVCHDataSet.invoicesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.invoicesDataTable dataTable = new DBASDataSet.invoicesDataTable();
+            MVCHDataSet.invoicesDataTable dataTable = new MVCHDataSet.invoicesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7487,14 +7487,14 @@ SELECT invoice_id, admission_id, transaction_id, invoice_date FROM invoices WHER
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.invoicesDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.invoicesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "invoices");
         }
         
@@ -7837,7 +7837,7 @@ SELECT item_id, cost_centre_id, item_description, item_cost FROM items WHERE (it
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -7854,7 +7854,7 @@ SELECT item_id, cost_centre_id, item_description, item_cost FROM items WHERE (it
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.itemsDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.itemsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -7867,9 +7867,9 @@ SELECT item_id, cost_centre_id, item_description, item_cost FROM items WHERE (it
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.itemsDataTable GetData() {
+        public virtual MVCHDataSet.itemsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.itemsDataTable dataTable = new DBASDataSet.itemsDataTable();
+            MVCHDataSet.itemsDataTable dataTable = new MVCHDataSet.itemsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -7877,14 +7877,14 @@ SELECT item_id, cost_centre_id, item_description, item_cost FROM items WHERE (it
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.itemsDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.itemsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "items");
         }
         
@@ -8233,7 +8233,7 @@ SELECT location_type, type_description FROM location_types WHERE (location_type 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8250,7 +8250,7 @@ SELECT location_type, type_description FROM location_types WHERE (location_type 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.location_typesDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.location_typesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -8263,9 +8263,9 @@ SELECT location_type, type_description FROM location_types WHERE (location_type 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.location_typesDataTable GetData() {
+        public virtual MVCHDataSet.location_typesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.location_typesDataTable dataTable = new DBASDataSet.location_typesDataTable();
+            MVCHDataSet.location_typesDataTable dataTable = new MVCHDataSet.location_typesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8273,14 +8273,14 @@ SELECT location_type, type_description FROM location_types WHERE (location_type 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.location_typesDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.location_typesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "location_types");
         }
         
@@ -8582,7 +8582,7 @@ SELECT location_id, location_type, location_extension FROM locations WHERE (loca
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8599,7 +8599,7 @@ SELECT location_id, location_type, location_extension FROM locations WHERE (loca
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.locationsDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.locationsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -8612,9 +8612,9 @@ SELECT location_id, location_type, location_extension FROM locations WHERE (loca
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.locationsDataTable GetData() {
+        public virtual MVCHDataSet.locationsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.locationsDataTable dataTable = new DBASDataSet.locationsDataTable();
+            MVCHDataSet.locationsDataTable dataTable = new MVCHDataSet.locationsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8622,14 +8622,14 @@ SELECT location_id, location_type, location_extension FROM locations WHERE (loca
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.locationsDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.locationsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "locations");
         }
         
@@ -8980,7 +8980,7 @@ SELECT admission_id, patient_id, location_id, physician_id, date_admitted, disch
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8998,7 +8998,7 @@ SELECT admission_id, patient_id, location_id, physician_id, date_admitted, disch
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.patient_admissionsDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.patient_admissionsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -9011,9 +9011,9 @@ SELECT admission_id, patient_id, location_id, physician_id, date_admitted, disch
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.patient_admissionsDataTable GetData() {
+        public virtual MVCHDataSet.patient_admissionsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.patient_admissionsDataTable dataTable = new DBASDataSet.patient_admissionsDataTable();
+            MVCHDataSet.patient_admissionsDataTable dataTable = new MVCHDataSet.patient_admissionsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -9021,14 +9021,14 @@ SELECT admission_id, patient_id, location_id, physician_id, date_admitted, disch
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.patient_admissionsDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.patient_admissionsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "patient_admissions");
         }
         
@@ -9487,7 +9487,7 @@ SELECT patient_id, patient_first_name, patient_last_name, patient_address, city,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -9506,7 +9506,7 @@ SELECT patient_id, patient_first_name, patient_last_name, patient_address, city,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.patientsDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.patientsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -9519,9 +9519,9 @@ SELECT patient_id, patient_first_name, patient_last_name, patient_address, city,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.patientsDataTable GetData() {
+        public virtual MVCHDataSet.patientsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.patientsDataTable dataTable = new DBASDataSet.patientsDataTable();
+            MVCHDataSet.patientsDataTable dataTable = new MVCHDataSet.patientsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -9529,14 +9529,14 @@ SELECT patient_id, patient_first_name, patient_last_name, patient_address, city,
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.patientsDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.patientsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "patients");
         }
         
@@ -10095,7 +10095,7 @@ SELECT patient_id, patient_first_name, patient_last_name, patient_address, city,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10112,7 +10112,7 @@ SELECT patient_id, patient_first_name, patient_last_name, patient_address, city,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.physician_specialtyDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.physician_specialtyDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10125,9 +10125,9 @@ SELECT patient_id, patient_first_name, patient_last_name, patient_address, city,
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.physician_specialtyDataTable GetData() {
+        public virtual MVCHDataSet.physician_specialtyDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.physician_specialtyDataTable dataTable = new DBASDataSet.physician_specialtyDataTable();
+            MVCHDataSet.physician_specialtyDataTable dataTable = new MVCHDataSet.physician_specialtyDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10135,14 +10135,14 @@ SELECT patient_id, patient_first_name, patient_last_name, patient_address, city,
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.physician_specialtyDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.physician_specialtyDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "physician_specialty");
         }
         
@@ -10359,7 +10359,7 @@ SELECT physician_id, physician_first_name, physician_last_name, physician_phone_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10377,7 +10377,7 @@ SELECT physician_id, physician_first_name, physician_last_name, physician_phone_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.physiciansDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.physiciansDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10390,9 +10390,9 @@ SELECT physician_id, physician_first_name, physician_last_name, physician_phone_
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.physiciansDataTable GetData() {
+        public virtual MVCHDataSet.physiciansDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.physiciansDataTable dataTable = new DBASDataSet.physiciansDataTable();
+            MVCHDataSet.physiciansDataTable dataTable = new MVCHDataSet.physiciansDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10400,14 +10400,14 @@ SELECT physician_id, physician_first_name, physician_last_name, physician_phone_
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.physiciansDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.physiciansDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "physicians");
         }
         
@@ -10755,7 +10755,7 @@ SELECT province_id, province FROM provinces WHERE (province_id = @province_id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10772,7 +10772,7 @@ SELECT province_id, province FROM provinces WHERE (province_id = @province_id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.provincesDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.provincesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10785,9 +10785,9 @@ SELECT province_id, province FROM provinces WHERE (province_id = @province_id)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.provincesDataTable GetData() {
+        public virtual MVCHDataSet.provincesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.provincesDataTable dataTable = new DBASDataSet.provincesDataTable();
+            MVCHDataSet.provincesDataTable dataTable = new MVCHDataSet.provincesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10795,14 +10795,14 @@ SELECT province_id, province FROM provinces WHERE (province_id = @province_id)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.provincesDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.provincesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "provinces");
         }
         
@@ -11099,7 +11099,7 @@ SELECT specialty_id, description FROM specialties WHERE (specialty_id = @special
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11116,7 +11116,7 @@ SELECT specialty_id, description FROM specialties WHERE (specialty_id = @special
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.specialtiesDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.specialtiesDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -11129,9 +11129,9 @@ SELECT specialty_id, description FROM specialties WHERE (specialty_id = @special
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.specialtiesDataTable GetData() {
+        public virtual MVCHDataSet.specialtiesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.specialtiesDataTable dataTable = new DBASDataSet.specialtiesDataTable();
+            MVCHDataSet.specialtiesDataTable dataTable = new MVCHDataSet.specialtiesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -11139,14 +11139,14 @@ SELECT specialty_id, description FROM specialties WHERE (specialty_id = @special
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.specialtiesDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.specialtiesDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "specialties");
         }
         
@@ -11460,7 +11460,7 @@ SELECT transaction_id, patient_id, item_id, date_charged, patient_financial_sour
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportGenerator.Properties.Settings.Default.DBASConnectionString;
+            this._connection.ConnectionString = global::ReportGenerator._000.Properties.Settings.Default.MVCHConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -11478,7 +11478,7 @@ SELECT transaction_id, patient_id, item_id, date_charged, patient_financial_sour
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(DBASDataSet.transactionsDataTable dataTable) {
+        public virtual int Fill(MVCHDataSet.transactionsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -11491,9 +11491,9 @@ SELECT transaction_id, patient_id, item_id, date_charged, patient_financial_sour
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual DBASDataSet.transactionsDataTable GetData() {
+        public virtual MVCHDataSet.transactionsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            DBASDataSet.transactionsDataTable dataTable = new DBASDataSet.transactionsDataTable();
+            MVCHDataSet.transactionsDataTable dataTable = new MVCHDataSet.transactionsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -11501,14 +11501,14 @@ SELECT transaction_id, patient_id, item_id, date_charged, patient_financial_sour
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet.transactionsDataTable dataTable) {
+        public virtual int Update(MVCHDataSet.transactionsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(DBASDataSet dataSet) {
+        public virtual int Update(MVCHDataSet dataSet) {
             return this.Adapter.Update(dataSet, "transactions");
         }
         
@@ -12102,7 +12102,7 @@ SELECT transaction_id, patient_id, item_id, date_charged, patient_financial_sour
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateUpdatedRows(DBASDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(MVCHDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._cost_centresTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.cost_centres.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -12229,7 +12229,7 @@ SELECT transaction_id, patient_id, item_id, date_charged, patient_financial_sour
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateInsertedRows(DBASDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(MVCHDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._cost_centresTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.cost_centres.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -12343,7 +12343,7 @@ SELECT transaction_id, patient_id, item_id, date_charged, patient_financial_sour
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private int UpdateDeletedRows(DBASDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(MVCHDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._physician_specialtyTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.physician_specialty.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -12481,7 +12481,7 @@ SELECT transaction_id, patient_id, item_id, date_charged, patient_financial_sour
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public virtual int UpdateAll(DBASDataSet dataSet) {
+        public virtual int UpdateAll(MVCHDataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }

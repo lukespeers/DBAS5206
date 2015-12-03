@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC2D2250-7FB8-47FD-9C51-BFC522413A8B}</ProjectGuid>
+    <ProjectGuid>{155F7CBC-3173-41DF-9271-C51A6A043092}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ReportGenerator</RootNamespace>
-    <AssemblyName>ReportGenerator</AssemblyName>
+    <RootNamespace>ReportGenerator._000</RootNamespace>
+    <AssemblyName>ReportGenerator.000</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -25,6 +24,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -67,13 +67,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CrystalDecisions.cs" />
-    <Compile Include="CustomReports.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CustomReports.Designer.cs">
-      <DependentUpon>CustomReports.cs</DependentUpon>
-    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,17 +90,14 @@
     <Compile Include="PatientPhysicians.Designer.cs">
       <DependentUpon>PatientPhysicians.cs</DependentUpon>
     </Compile>
-    <Compile Include="PrebuiltReports.cs">
+    <Compile Include="PreBuiltReports.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PrebuiltReports.Designer.cs">
-      <DependentUpon>PrebuiltReports.cs</DependentUpon>
+    <Compile Include="PreBuiltReports.Designer.cs">
+      <DependentUpon>PreBuiltReports.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CustomReports.resx">
-      <DependentUpon>CustomReports.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,8 +108,8 @@
     <EmbeddedResource Include="PatientPhysicians.resx">
       <DependentUpon>PatientPhysicians.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PrebuiltReports.resx">
-      <DependentUpon>PrebuiltReports.cs</DependentUpon>
+    <EmbeddedResource Include="PreBuiltReports.resx">
+      <DependentUpon>PreBuiltReports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -153,15 +143,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MVCH_FormBackground.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MVCH.mdf">
@@ -171,11 +153,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>MVCH.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\MVCH_FormBackground.png" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -188,11 +171,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
-      <Visible>False</Visible>
-      <ProductName>SQL Server 2008 Express</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
       <Visible>False</Visible>
       <ProductName>Windows Installer 4.5</ProductName>
@@ -200,15 +178,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <COMReference Include="CrystalActiveXReportViewerLib13">
-      <Guid>{B816E96D-D151-4000-BADB-53A2D8F3FC65}</Guid>
-      <VersionMajor>13</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
