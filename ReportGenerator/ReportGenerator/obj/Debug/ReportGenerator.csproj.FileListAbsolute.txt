@@ -12,3 +12,5 @@ C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug
 C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.exe
 C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.pdb
 C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.frmPatientPhysicians.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator\ReportGenerator\obj\Debug\ReportGenerator.csproj.ResolveComReference.cache

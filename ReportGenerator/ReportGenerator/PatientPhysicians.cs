@@ -27,10 +27,12 @@ namespace ReportGenerator
         private void frmPatientPhysicians_Load(object sender, EventArgs e)
         {
             // Report object for use at run time
-            PatientPhysicianReport aPatientPhysicianReport = new PatientPhysicianReport();
+            PatientPhysicianReport aPatientPhysicianReport;
+            aPatientPhysicianReport = new PatientPhysicianReport();
             // RoomUtilizationReport aRoomUtilizationReport;
-            try
-            {
+            //try
+            //{
+
                 aDataSet = new DBASDataSet();
                 aPatientTableAdapter = new DBASDataSetTableAdapters.patientsTableAdapter();
                 aPhysiciansTableAdapter = new DBASDataSetTableAdapters.physiciansTableAdapter();
@@ -41,12 +43,17 @@ namespace ReportGenerator
                 anAdmissionsTableAdapter.Fill(aDataSet.patient_admissions);
 
                 // Set up viewer to show report object
+                aPatientPhysicianReport.SetDataSource(aDataSet);
+
                 rptPatientPhysicianViewer.ReportSource = aPatientPhysicianReport;
-            }
-            catch (Exception dataException)
-            {
-                MessageBox.Show(dataException.Message);
-            }
+                rptPatientPhysicianViewer.Refresh();
+
+           // }
+           // catch (Exception dataException)
+           // {
+             //   MessageBox.Show(dataException.Message);
+           // }
+            
         }
     }
 }
