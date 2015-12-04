@@ -16,14 +16,14 @@ namespace ReportGenerator._000 {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class PatientPhysicianReport : ReportClass {
+    public class PatientPhysicianReport1 : ReportClass {
         
-        public PatientPhysicianReport() {
+        public PatientPhysicianReport1() {
         }
         
         public override string ResourceName {
             get {
-                return "PatientPhysicianReport.rpt";
+                return "PatientPhysicianReport1.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace ReportGenerator._000 {
         
         public override string FullResourceName {
             get {
-                return "ReportGenerator._000.PatientPhysicianReport.rpt";
+                return "ReportGenerator._000.PatientPhysicianReport1.rpt";
             }
             set {
                 // Do nothing
@@ -66,7 +66,7 @@ namespace ReportGenerator._000 {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section GroupHeaderSection1 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section3 {
             get {
                 return this.ReportDefinition.Sections[2];
             }
@@ -74,7 +74,7 @@ namespace ReportGenerator._000 {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section3 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section4 {
             get {
                 return this.ReportDefinition.Sections[3];
             }
@@ -82,33 +82,17 @@ namespace ReportGenerator._000 {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section GroupFooterSection1 {
-            get {
-                return this.ReportDefinition.Sections[4];
-            }
-        }
-        
-        [Browsable(false)]
-        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section4 {
-            get {
-                return this.ReportDefinition.Sections[5];
-            }
-        }
-        
-        [Browsable(false)]
-        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
         public CrystalDecisions.CrystalReports.Engine.Section Section5 {
             get {
-                return this.ReportDefinition.Sections[6];
+                return this.ReportDefinition.Sections[4];
             }
         }
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedPatientPhysicianReport : Component, ICachedReport {
+    public class CachedPatientPhysicianReport1 : Component, ICachedReport {
         
-        public CachedPatientPhysicianReport() {
+        public CachedPatientPhysicianReport1() {
         }
         
         [Browsable(false)]
@@ -145,7 +129,7 @@ namespace ReportGenerator._000 {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            PatientPhysicianReport rpt = new PatientPhysicianReport();
+            PatientPhysicianReport1 rpt = new PatientPhysicianReport1();
             rpt.Site = this.Site;
             return rpt;
         }

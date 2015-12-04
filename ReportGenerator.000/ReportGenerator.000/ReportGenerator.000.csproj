@@ -78,10 +78,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MVCHDBASDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="PatientPhysicianReport.cs">
+    <Compile Include="PatientPhysicianReportOG.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PatientPhysicianReport.rpt</DependentUpon>
+      <DependentUpon>PatientPhysicianReportOG.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="PatientPhysicians.cs">
@@ -89,6 +89,12 @@
     </Compile>
     <Compile Include="PatientPhysicians.Designer.cs">
       <DependentUpon>PatientPhysicians.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientPhysicianReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatientPhysicianReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="PreBuiltReports.cs">
       <SubType>Form</SubType>
@@ -101,12 +107,16 @@
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PatientPhysicianReport.rpt">
+    <EmbeddedResource Include="PatientPhysicianReportOG.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>PatientPhysicianReport.cs</LastGenOutput>
+      <LastGenOutput>PatientPhysicianReportOG.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="PatientPhysicians.resx">
       <DependentUpon>PatientPhysicians.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatientPhysicianReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PatientPhysicianReport.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="PreBuiltReports.resx">
       <DependentUpon>PreBuiltReports.cs</DependentUpon>
