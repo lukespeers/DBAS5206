@@ -35,9 +35,10 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(121, 219);
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(75, 188);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(139, 42);
+            this.btnExit.Size = new System.Drawing.Size(213, 62);
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -45,9 +46,10 @@
             // 
             // btnRoomUtilizationReport
             // 
-            this.btnRoomUtilizationReport.Location = new System.Drawing.Point(121, 52);
+            this.btnRoomUtilizationReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRoomUtilizationReport.Location = new System.Drawing.Point(75, 16);
             this.btnRoomUtilizationReport.Name = "btnRoomUtilizationReport";
-            this.btnRoomUtilizationReport.Size = new System.Drawing.Size(139, 42);
+            this.btnRoomUtilizationReport.Size = new System.Drawing.Size(213, 62);
             this.btnRoomUtilizationReport.TabIndex = 3;
             this.btnRoomUtilizationReport.Text = "&Room Utilization Report";
             this.btnRoomUtilizationReport.UseVisualStyleBackColor = true;
@@ -55,9 +57,10 @@
             // 
             // btnPatientPhysicianReport
             // 
-            this.btnPatientPhysicianReport.Location = new System.Drawing.Point(121, 133);
+            this.btnPatientPhysicianReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatientPhysicianReport.Location = new System.Drawing.Point(75, 101);
             this.btnPatientPhysicianReport.Name = "btnPatientPhysicianReport";
-            this.btnPatientPhysicianReport.Size = new System.Drawing.Size(139, 42);
+            this.btnPatientPhysicianReport.Size = new System.Drawing.Size(213, 62);
             this.btnPatientPhysicianReport.TabIndex = 4;
             this.btnPatientPhysicianReport.Text = "&Patient - Physicial Report";
             this.btnPatientPhysicianReport.UseVisualStyleBackColor = true;
@@ -67,9 +70,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ReportGenerator._000.Properties.Resources.MVCH_FormBackground;
+            this.BackgroundImage = global::ReportGenerator._000.Properties.Resources.MVCH_FormBackground1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(381, 341);
+            this.ClientSize = new System.Drawing.Size(361, 310);
+            this.ControlBox = false;
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnRoomUtilizationReport);
             this.Controls.Add(this.btnPatientPhysicianReport);

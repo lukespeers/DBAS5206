@@ -11,3 +11,16 @@ C:\Users\Dan\Documents\Visual Studio 2012\Projects\ReportGenerator.000\ReportGen
 C:\Users\Dan\Documents\Visual Studio 2012\Projects\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator.000.csprojResolveAssemblyReference.cache
 C:\Users\Dan\Documents\Visual Studio 2012\Projects\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator._000.frmPreBuiltReports.resources
 C:\Users\Dan\Documents\Visual Studio 2012\Projects\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator._000.frmPatientPhysicians.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\bin\Debug\ReportGenerator.000.exe.config
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator.000.exe
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator.000.pdb
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\bin\Debug\ReportGenerator.000.exe
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\bin\Debug\ReportGenerator.000.pdb
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator.000.csprojResolveAssemblyReference.cache
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator._000.frmMainMenu.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator._000.frmPatientPhysicians.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator._000.frmPrebuiltReports.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator._000.Properties.Resources.resources
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\obj\Debug\ReportGenerator.000.csproj.GenerateResource.Cache
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\bin\Debug\MVCHDBAS.mdf
+C:\Users\Dan\Documents\GitHub\DBAS5206\ReportGenerator.000\ReportGenerator.000\bin\Debug\MVCHDBAS_log.ldf

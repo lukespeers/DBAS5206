@@ -12,6 +12,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -73,10 +73,10 @@
     <Compile Include="MainMenu.Designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="MVCHDataSet.Designer.cs">
+    <Compile Include="MVCHDBASDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>MVCHDataSet.xsd</DependentUpon>
+      <DependentUpon>MVCHDBASDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="PatientPhysicianReport.cs">
       <AutoGen>True</AutoGen>
@@ -121,16 +121,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="MVCHDataSet.xsc">
-      <DependentUpon>MVCHDataSet.xsd</DependentUpon>
+    <None Include="MVCHDBASDataSet.xsc">
+      <DependentUpon>MVCHDBASDataSet.xsd</DependentUpon>
     </None>
-    <None Include="MVCHDataSet.xsd">
+    <None Include="MVCHDBASDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>MVCHDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>MVCHDBASDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="MVCHDataSet.xss">
-      <DependentUpon>MVCHDataSet.xsd</DependentUpon>
+    <None Include="MVCHDBASDataSet.xss">
+      <DependentUpon>MVCHDBASDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -146,13 +146,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MVCH.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="MVCH_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>MVCH.mdf</DependentUpon>
-    </Content>
     <None Include="Resources\MVCH_FormBackground.png" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +172,16 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MVCHDBAS.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MVCHDBAS_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>MVCHDBAS.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\MVCH_FormBackground1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

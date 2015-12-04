@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainMenu));
             this.btnExit = new System.Windows.Forms.Button();
             this.btnCustomReports = new System.Windows.Forms.Button();
             this.btnPrebuiltReports = new System.Windows.Forms.Button();
@@ -37,9 +36,10 @@
             // btnExit
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(111, 214);
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(76, 189);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(139, 42);
+            this.btnExit.Size = new System.Drawing.Size(213, 62);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -47,9 +47,10 @@
             // 
             // btnCustomReports
             // 
-            this.btnCustomReports.Location = new System.Drawing.Point(111, 133);
+            this.btnCustomReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomReports.Location = new System.Drawing.Point(76, 108);
             this.btnCustomReports.Name = "btnCustomReports";
-            this.btnCustomReports.Size = new System.Drawing.Size(139, 42);
+            this.btnCustomReports.Size = new System.Drawing.Size(213, 62);
             this.btnCustomReports.TabIndex = 1;
             this.btnCustomReports.Text = "&Custom Reports";
             this.btnCustomReports.UseVisualStyleBackColor = true;
@@ -57,9 +58,10 @@
             // 
             // btnPrebuiltReports
             // 
-            this.btnPrebuiltReports.Location = new System.Drawing.Point(111, 53);
+            this.btnPrebuiltReports.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrebuiltReports.Location = new System.Drawing.Point(76, 28);
             this.btnPrebuiltReports.Name = "btnPrebuiltReports";
-            this.btnPrebuiltReports.Size = new System.Drawing.Size(139, 42);
+            this.btnPrebuiltReports.Size = new System.Drawing.Size(213, 62);
             this.btnPrebuiltReports.TabIndex = 0;
             this.btnPrebuiltReports.Text = "&Pre-built Reports";
             this.btnPrebuiltReports.UseVisualStyleBackColor = true;
@@ -69,7 +71,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::ReportGenerator._000.Properties.Resources.MVCH_FormBackground1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(361, 310);

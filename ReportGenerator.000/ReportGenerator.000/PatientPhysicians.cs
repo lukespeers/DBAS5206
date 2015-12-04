@@ -19,10 +19,12 @@ namespace ReportGenerator._000
         //private DBASDataSet hospitalInfoDataSet;
         // Table Adapter Objects
         //private DBASDataSetTableAdapters.invoicesTableAdapter invoiceTableAdapter;
-        private MVCHDataSet aDataSet;
-        private MVCHDataSetTableAdapters.patient_admissionsTableAdapter anAdmissionsTableAdapter;
-        private MVCHDataSetTableAdapters.patientsTableAdapter aPatientTableAdapter;
-        private MVCHDataSetTableAdapters.physiciansTableAdapter aPhysiciansTableAdapter;        
+        private MVCHDBASDataSet aDataSet;
+        private MVCHDBASDataSetTableAdapters.patient_admissionsTableAdapter anAdmissionsTableAdapter;
+        private MVCHDBASDataSetTableAdapters.patientsTableAdapter aPatientTableAdapter;
+        private MVCHDBASDataSetTableAdapters.physiciansTableAdapter aPhysiciansTableAdapter;
+        private MVCHDBASDataSetTableAdapters.location_typesTableAdapter aLocationTypesTableAdapter;
+        private MVCHDBASDataSetTableAdapters.locationsTableAdapter aLocationTableAdapter;
 
         private void frmPatientPhysicians_Load(object sender, EventArgs e)
         {
@@ -33,14 +35,18 @@ namespace ReportGenerator._000
             //try
             //{
 
-            aDataSet = new MVCHDataSet();
-            aPhysiciansTableAdapter = new MVCHDataSetTableAdapters.physiciansTableAdapter();
-            anAdmissionsTableAdapter = new MVCHDataSetTableAdapters.patient_admissionsTableAdapter();
-            aPatientTableAdapter = new MVCHDataSetTableAdapters.patientsTableAdapter();
+            aDataSet = new MVCHDBASDataSet();
+            aPhysiciansTableAdapter = new MVCHDBASDataSetTableAdapters.physiciansTableAdapter();
+            anAdmissionsTableAdapter = new MVCHDBASDataSetTableAdapters.patient_admissionsTableAdapter();
+            aPatientTableAdapter = new MVCHDBASDataSetTableAdapters.patientsTableAdapter();
+            aLocationTableAdapter = new MVCHDBASDataSetTableAdapters.locationsTableAdapter();
+            aLocationTypesTableAdapter = new MVCHDBASDataSetTableAdapters.location_typesTableAdapter();
 
             aPatientTableAdapter.Fill(aDataSet.patients);
             aPhysiciansTableAdapter.Fill(aDataSet.physicians);
             anAdmissionsTableAdapter.Fill(aDataSet.patient_admissions);
+            aLocationTableAdapter.Fill(aDataSet.locations);
+            aLocationTypesTableAdapter.Fill(aDataSet.location_types);
 
             // Set up viewer to show report object
             aPatientPhysicianReport.SetDataSource(aDataSet);

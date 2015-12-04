@@ -33,5 +33,16 @@ namespace ReportGenerator._000.Properties {
                 return ((string)(this["MVCHConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|\\MVCHDBAS.mdf;Integra" +
+            "ted Security=True;Connect Timeout=30")]
+        public string MVCHDBASConnectionString {
+            get {
+                return ((string)(this["MVCHDBASConnectionString"]));
+            }
+        }
     }
 }
