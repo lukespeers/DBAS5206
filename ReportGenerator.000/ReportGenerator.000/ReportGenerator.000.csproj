@@ -78,12 +78,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>MVCHDBASDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="PatientPhysicianReportOG.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PatientPhysicianReportOG.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="PatientPhysicians.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,10 +100,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PatientPhysicianReportOG.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>PatientPhysicianReportOG.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="PatientPhysicians.resx">
       <DependentUpon>PatientPhysicians.cs</DependentUpon>
